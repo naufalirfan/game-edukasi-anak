@@ -2,6 +2,7 @@
 
 > Aplikasi mobile edukasi + storytelling — mini-game kognitif, aman tanpa iklan, dengan Parental Dashboard.
 
+[![Build](https://github.com/naufalirfan/game-edukasi-anak/actions/workflows/build.yml/badge.svg)](https://github.com/naufalirfan/game-edukasi-anak/actions/workflows/build.yml)
 [![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?logo=vite)](./web)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](./web)
 [![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS-black?logo=unity)](./unity)
