@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 23
+  productGUID: a1b2c3d4e5f64a7b8c9d0e1f2a3b4c5d6
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 0
+  defaultScreenOrientation: 4
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  m_StereoRenderingPath: 0
+  m_ActiveColorSpace: 0
+  m_MTRendering: 1
+  mipStripping: 0
+  numberOfMipsStripped: 0
+  m_BundleVersion: 1.0.0
+  m_PreloadedAssets: []
+  m MetroPackageName: GameEdukasiAnak
+  m_Version: 1.0.0
+  bundleVersion: 1.0.0
+  preloadedAssets: []
+  metroPackageName: GameEdukasiAnak
+  templatePackageName: 
+  templateDefaultScene: 
+  applicationIdentifier:
+    Android: com.mas.gameedukasi
+    Standalone: com.mas.gameedukasi
+    WebGL: com.mas.gameedukasi
+    iPhone: com.mas.gameedukasi
+  buildNumber:
+    Standalone: 0
+    iPhone: 0
+    tvOS: 0
+  overrideDefaultApplicationIdentifier: 0
+  templateApplicationIdentifier: 
+  runInBackground: 1
+  captureSingleScreen: 0
+  muteOtherAudioSources: 0
+  Prepare IOS For Recording: 0
+  Force IOS Speakers When Recording: 0
+  deferSystemGesturesMode: 0
+  hideHomeButton: 0
+  submitAnalytics: 0
+  usePlayerLog: 1
+  bakeCollisionMeshes: 0
+  forceSingleInstance: 0
+  useFlipModelSwapchain: 1
+  resizableWindow: 0
+  useMacAppStoreValidation: 0
+  macRetinaSupport: 1
+  d3d9FullscreenMode: 1
+  d3d11FullscreenMode: 1
+  virtualRealitySDKs: []
+  virtualRealitySplashScreen: 
+  defaultIsNativeVRPlugin: 0
+  singlePassStereoRendering: 0
+  vulkanNumSwapchainBuffers: 3
+  vulkanLowLatencyThreshold: 0
+  m_SupportedAspectRatios:
+    4:3: 1
+    5:4: 1
+    16:10: 1
+    16:9: 1
+    Others: 1
+  bundleVersion: 1.0.0
+  preloadedAssets: []
+  metroInputSource: 0
+  wsaTransparentSwapchain: 0
+  m_HolographicTrackingLossScreen: 
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  m_ScreenshotResolution: 0
+  m_TemplateCustomTags: {}
+  mobileMTRendering:
+    Android: 1
+    iPhone: 1
+    tvOS: 1
+  m_MobileMTRendering: 1
+  mipStripping: 0
+  numberOfMipsStripped: 0
+  m_TemplateCustomTags: {}
+  templatePackageName: 
+  templateDefaultScene: 
+  playerMinOpenGLESVersion: 0
+  vulkanNumSwapchainBuffers: 3
+  vulkanLowLatencyThreshold: 0
+  m_SupportedAspectRatios: {4:3: 1, 5:4: 1, 16:10: 1, 16:9: 1, Others: 1}
+  2DPhysics: 1
+  defaultIsFullScreen: 1
+  defaultIsNativeResolution: 1
+  macRetinaSupport: 1
+  runInBackground: 1
+  captureSingleScreen: 0
+  muteOtherAudioSources: 0
+  Prepare IOS For Recording: 0
+  Force IOS Speakers When Recording: 0
+  deferSystemGesturesMode: 0
+  hideHomeButton: 0
+  XboxPIXTextureCapture: 0
+  XboxEnableAvatarMasks: 0
+  XboxEnableKinect: 0
+  XboxEnableKinectAutoTracking: 0
+  XboxEnableFitness: 0
+  visibleInBackground: 1
+  allowFullscreenSwitch: 1
+  fullscreenMode: 1
+  XboxSpeechDB: 0
+  XboxEnableHeadOrientation: 0
+  XboxEnableGPUVariability: 0
+  XboxUseEnabledAvatarMasks: 0
+  XboxUseEnabledKinectAutoTracking: 0
+  XboxUseEnabledFitness: 0
+  XboxUseEnabledHeadOrientation: 0
+  XboxUseEnabledGPUVariability: 0
+  XboxEnablePIXSampling: 0
+  metalFramebufferOnly: 0
+  xboxPIXTextureCapture: 0
+  xboxEnableAvatarMasks: 0
+  xboxEnableKinect: 0
+  xboxEnableKinectAutoTracking: 0
+  xboxEnableFitness: 0
+  appleTVSplashScreen: 
+  tvOSRequireExtendedGameController: 0
+  appleTVSplashScreen2x: 
+  tvOSSmallIconLayers: []
+  tvOSLargeIconLayers: []
+  tvOSTopShelfImageLayers: []
+  tvOSTopShelfImageWideLayers: []

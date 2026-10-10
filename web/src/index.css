@@ -1,0 +1,54 @@
+:root{
+  --primary:#FF6B6B; --secondary:#4ECDC4; --accent:#FFE66D; --bg:#FFF8E7;
+  --purple:#A78BFA; --green:#34D399; --orange:#FB923C; --blue:#60A5FA;
+  --text:#2D3142; --card:#FFFFFF;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Nunito','Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+button{font-family:inherit}
+a{color:inherit}
+.app{min-height:100vh;display:flex;flex-direction:column}
+.header{background:white;box-shadow:0 2px 12px #0001;display:flex;align-items:center;justify-content:space-between;padding:10px 16px;position:sticky;top:0;z-index:10;gap:8px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.25rem}
+.logo-badge{width:44px;height:44px;background:var(--primary);border-radius:14px;display:grid;place-items:center;font-size:24px}
+.header-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.btn{border:none;border-radius:999px;padding:12px 20px;font-weight:800;cursor:pointer;min-height:48px;min-width:48px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:0.95rem;transition:.15s}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--primary);color:white}
+.btn-secondary{background:var(--secondary);color:white}
+.btn-ghost{background:#F3F4F6;color:var(--text)}
+.btn-outline{background:white;border:2px solid #E5E7EB}
+.badge{font-size:.75rem;background:#FEF3C7;border-radius:999px;padding:4px 10px;font-weight:700}
+.offline-bar{background:#EF4444;color:white;text-align:center;padding:6px;font-weight:700;font-size:.85rem}
+.container{max-width:980px;margin:0 auto;width:100%;padding:20px 16px;flex:1}
+.hero{background:white;border-radius:24px;padding:28px;box-shadow:0 8px 32px #0000000d;display:grid;grid-template-columns:1fr 280px;gap:20px;align-items:center}
+@media(max-width:700px){.hero{grid-template-columns:1fr}}
+.mascot{width:100%;aspect-ratio:1;background:linear-gradient(135deg,var(--accent),var(--orange));border-radius:24px;display:grid;place-items:center;font-size:80px;position:relative;overflow:hidden}
+.mascot small{position:absolute;bottom:10px;font-size:.75rem;background:white;padding:4px 10px;border-radius:999px;font-weight:700}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:700px){.grid3{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:20px;padding:18px;box-shadow:0 4px 20px #0001;border:2px solid transparent;cursor:pointer;transition:.15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 28px #0001}
+.card-locked{opacity:.6;position:relative}
+.lock-badge{position:absolute;top:12px;right:12px;background:#111;color:white;border-radius:999px;padding:4px 10px;font-size:.7rem;font-weight:800}
+.module-icon{width:64px;height:64px;border-radius:18px;display:grid;place-items:center;font-size:32px;margin-bottom:10px}
+.progress-bar{height:10px;background:#F3F4F6;border-radius:999px;overflow:hidden;margin-top:10px}
+.progress-fill{height:100%;border-radius:999px;transition:width .4s}
+.profile-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.avatar{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:32px}
+.profile-card{background:white;border-radius:20px;padding:16px;text-align:center;box-shadow:0 4px 16px #0001;border:3px solid transparent;cursor:pointer}
+.profile-card.active{border-color:var(--primary)}
+.game-area{background:white;border-radius:24px;padding:24px;box-shadow:0 8px 32px #0001;max-width:640px;margin:0 auto}
+.choice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(max-width:500px){.choice-grid{grid-template-columns:repeat(2,1fr)}}
+.choice-btn{min-height:64px;border-radius:16px;border:3px solid #E5E7EB;background:white;font-size:1.4rem;font-weight:800;cursor:pointer;display:grid;place-items:center}
+.sticker-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.sticker{width:44px;height:44px;background:var(--accent);border-radius:12px;display:grid;place-items:center;font-size:22px;border:2px solid #F59E0B}
+.canvas-wrap{border:3px dashed #E5E7EB;border-radius:16px;overflow:hidden;background:white}
+input,select{padding:12px 16px;border-radius:12px;border:2px solid #E5E7EB;font-size:1rem;width:100%;min-height:48px}
+.modal-overlay{position:fixed;inset:0;background:#0006;display:grid;place-items:center;z-index:50;padding:16px}
+.modal{background:white;border-radius:24px;padding:24px;max-width:520px;width:100%;max-height:90vh;overflow:auto}
+.kid-title{font-size:1.6rem;font-weight:900}
+.muted{color:#6B7280;font-size:.9rem}
+.flex{display:flex;gap:8px;align-items:center}
+.stack{display:flex;flex-direction:column;gap:10px}
